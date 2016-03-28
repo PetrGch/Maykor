@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+<head>	
+<link rel="stylesheet" type="text/css" href="css/media-i.css" />
+		<link rel="stylesheet" type="text/css" href="js/libs/reject/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/general.css" />
+		<link rel="stylesheet" type="text/css" href="css/links.css"   />
+		<link rel="stylesheet" type="text/css" href="css/content.css" />
+		<link rel="stylesheet" type="text/css" href="css/sidebar.css" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css"   />
+		<link rel="stylesheet" type="text/css" href="css/forms.css"   />
+		<link rel="stylesheet" type="text/css" href="css/borders.css" />
+		<link rel="stylesheet" type="text/css" href="css/popup.css"   />
+		<link rel="stylesheet" type="text/css" href="css/parallax.css"   />
+		<link rel="stylesheet" type="text/css" href="css/iphone.css"   />
+		<link rel="stylesheet" type="text/css" href="css/print.css"   />
+
+		<link rel="stylesheet" type="text/css" href="css/aCircles.css" />
+		<link rel="stylesheet" type="text/css" href="css/aZoom.css"    />
+		<link rel="stylesheet" type="text/css" href="css/aGray.css"    />
+		<link rel="stylesheet" type="text/css" href="css/imgareaselect/imgareaselect-default.css"    />
+		<link rel="stylesheet" type="text/css" href="css/map/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/magnific.css" />
+		<link rel="stylesheet" type="text/css" href="css/sprites.css" />
+
+
+		<link rel="stylesheet" type="text/css" href="css/style.min.css" />
+		<link rel="stylesheet" type="text/css" href="css_new/css.css">
+
+	
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, maximum-scale=1.0"/>
+	<meta name="HandheldFriendly" content="True"/>
+	
+	<meta name="format-detection" content="telephone=no"/>
+	<meta name="format-detection" content="address=no"/>
+
+	<title></title>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />  
+
+	
+	<!--[if lte IE 6]>
+	<style type="text/css">
+		
+		#support-question { 
+			background-image: none;
+			filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./images/question.png', sizingMethod = 'crop'); 
+		}
+		
+		#support-question { left: -9px;}
+		
+		#banner-overlay {
+			background-image: none;
+			filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./images/overlay.png', sizingMethod = 'crop');
+		}
+		
+	</style>
+	<![endif]-->
+
+	<!-- Add jQuery library -->
+
+	<!--<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/libs/reject/reject.js"></script>
+	<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/libs/jquery.mobile.custom.min.js"></script>
+	<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/libs/mirgate.js"></script>
+	<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/libs/jquery.swipe.js"></script>
+	<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/libs/jquery-ui.js"></script>
+	<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/libs/gray/functions.js"></script>
+	<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/libs/jquery.color.js"></script>
+	<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/libs/transition.js"></script>
+	<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/libs/imgareaselect/jquery.imgareaselect.min.js"></script>
+	<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/libs/mask.js"></script>
+	<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/libs/jquery.swipe.js"></script>
+	<script src="<?=SITE_TEMPLATE_PATH;?>/js/map/jqueryrotate.min.js"></script>
+	<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/libs/magnific.js"></script>-->
+	<script type="text/javascript" src="js/scripts.min.js"></script>
+	<script type="text/javascript" src="js/libs/gray/grayscale.js"></script>
+
+
+	<!--Лайки >
+	<script type="text/javascript" src="http://vk.com/js/api/share.js?90" charset="windows-1251"></script-->
+
+	<!--[if lte IE 9]>
+		<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/libs/ie.js"></script>
+	<![endif]-->
+
+	<!-- Add history-API plugin -->
+	<script type="text/javascript" src="js/libs/history.js"></script>
+	<script type="text/javascript" src="js/libs/detectBrowser.js"></script>
+
+	<!-- Add mousewheel plugin (this is optional) -->
+	<script type="text/javascript" src="js/libs/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+	<!-- Add fancyBox -->
+	<link rel="stylesheet" href="js/libs/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+	<script type="text/javascript" src="js/libs/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+	<!-- Optionally add helpers - button, thumbnail and/or media -->
+	<link rel="stylesheet" href="js/libs/fancybox/source/helpers/jquery.fancybox-mybuttons.css?v=1.0.5" type="text/css" media="screen" />
+	<script type="text/javascript" src="js/libs/fancybox/source/helpers/jquery.fancybox-mybuttons.js?v=1.0.5"></script>
+	<script type="text/javascript" src="js/libs/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+	<link rel="stylesheet" href="js/libs/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+	<script type="text/javascript" src="js/libs/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+	
+	<!-- Add js files >
+	
+	<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/devs/front.js"></script>
+	<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/devs/back.js"></script>
+	<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/main.js"></script>
+	<script src="<?=SITE_TEMPLATE_PATH?>/js/devs/social.js"></script-->
+	<meta property="og:site_name" content="MAYKOR: аутсорсинг ИТ- и бизнес-процессов по всей России" />
+	<meta class="ogimg" property="og:image" content="http://<?=$_SERVER['SERVER_NAME'];?><?=$APPLICATION->ShowProperty('OGIMG');?>" />
+	<meta class="ogdesc" property="og:description" content="<?=$APPLICATION->ShowProperty('DESCRIPTION');?>">
+	<meta class="ogtitle" property="og:title" content="<?=$APPLICATION->ShowProperty('TITLE');?>">
+	<meta class="ogurl" property="og:url" content="http://<?=$_SERVER['SERVER_NAME'].$APPLICATION->GetCurPage(false);?>" />
+	<meta class="imgvk" content="http://<?=$_SERVER['SERVER_NAME'].SITE_TEMPLATE_PATH;?>/images/logovk.png">
+	<meta name="robots" content="noyaca"/>
+	<meta name="robots" content="noodp"/>
+</head>
+
+
+<body onorientationchange="calcMenus()">		
+			<div id="header">
+				<div class="container center mmenu">
+					<a href="" title="">
+						<div class="logo" style="background-image: url(include/logo.png)"></div>
+					</a>
+					<div class="header-form">
+						<div class="select">
+							<div class="lng-tgl">
+								<div class="lng-selected icon-ru" onclick="window.location = '/en/';">Eng</div>
+							</div>
+						</div>	
+						<div class="select">
+							<div class="rgn-tgl">
+								<div class="ar-little-down"></div>
+								<div class="rgn-selected">Выберите округ</div>
+								<div class="clear"></div>
+							</div>
+							<div class="rgn-dd glow hidden" style="z-index: 150">
+							</div>
+						</div>
+					</div>
+
+					<div class="feedback pop-ctrl">
+						<a class="a-green ">Связаться с нами</a>
+					</div>
+
+					<div class="header-menu">
+						<ul id="top-menu">
+							<li><a class="a-bolder bk" href="/press/" data-pop="press-pop">ПРЕСС-ЦЕНТР</a></li>
+							<li><a class="a-bolder bk menu-fil" href="/filials/" data-pop="filials-pop">ФИЛИАЛЫ</a></li>
+							<li><a class="a-bolder bk " href="/clients/" data-pop="clients-pop">КЛИЕНТЫ</a></li>
+							<li><a class="a-bolder bk" href="/branches/" data-pop="branch-pop">ОТРАСЛИ</a></li>
+							<li><a class="a-bolder bk menu-serv" href="/services/" data-pop="serv-pop">УСЛУГИ</a></li>
+							<li><b><a class="a-bolder bk " href="/about/" data-pop="about-pop">О КОМПАНИИ</a></b></li>
+						</ul>
+					</div>
+					<div class="telephone">
+					</div>
+				</div>
+			</div>
+
+			<div class="content-wrapper">
+				<div class="news-line">
+					<div class="h-slider container center">
+						<div class="news-controls">
+							<div class="news-right arr-r h-right on"></div>
+							<div class="news-left arr-l h-left on"></div>
+						</div>
+
+						<div class="news-caption">Новости:</div>
+						<div class="news-items">
+							<div class="h-item news-item" id="bx_3218110189_4694" style="display: block; opacity: 1;">
+								<a href="/press/news/gmcsvtretiyrazstalaluchshimpostavshchikomresheniymicrosoftdynamicsvtsentralnoyivostochnoyevrope/" class="a-bolder" style="color: inherit">GMCS – лучший поставщик решений Microsoft Dynamics</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			
+				<div class="content container center">
+					<div id="workarea-wrapper" style="min-height: 1333px;">
+						<div id="breadcrumb">
+							<a class="a-togreen wgy" href="/" title="На главную страницу">Главная</a> \ <a class="a-togreen wgy" href="/about/" title="О компании">О компании</a> \ <span class="cur-bread">Закупки</span>
+						</div>				
+
+						<div id="workarea">
+							<div id="workarea-inner">
+								<div class="page-header wgy">Закупки</div>
+								<div class="page-nav pnav">
+									<ul>
+										<li class="pnav-item"><a href="#">Перечень закупок</a></li><li class="pnav-item pnav-item-action"><a href="#">Запросы информации</a></li><li class="pnav-item"><a href="#">Регламенты и процедуры</a></li><li class="pnav-item"><a href="#">Новости закупок</a></li>
+									</ul>
+								</div>
+								<div class="page-content m zaprosi-content">
+									
+									<!-- Контент-часть -->
+	
+									<div class="zakupki-news zaprosi">
+										<p>В данном разделе представлен перечень запросов информации в рамках планирования и подготовки закупок</p>
+										<h5>Список всех закупок</h5>
+										<table>
+											<thead>
+												<tr>
+													<th><a href="#">▼ Дата</a></th>
+													<th>Номер и наименование запроса информации</th>
+													<th>Организация и регионы</th>
+													<th>Прием ответов</th>
+													<th>Статус</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td><p>10 Мар</p> 2016</td>
+													<td><p>0503/26/19-16</p><a href="#">Выполнение работы по строительству предварительный постов весового и габаритного контроля на дорогах</a></td>
+													<td>МЭЙКОР<br/>
+														<a href="#">СЗФО,</a>
+														<a href="#">ЦФО,</a>
+														<a href="#">ЮФО,</a>
+														<a href="#">УФО,</a>
+														<a href="#">ПФО,</a>
+														<a href="#">СКФО,</a>
+														<a href="#">ДФО,</a>
+														<a href="#">СФО,</a>
+													</td>
+													<td><p>До 11:00 <br/> 18 Мар </p> 2016</td>
+													<td><a href="#"><img src="images_new/purch_icon.gif" alt=""><div class="tooltip"><p>Открыто</p></div></a></td>
+												</tr>
+												<tr>
+													<td><p>10 Мар</p> 2016</td>
+													<td><p>0503/26/19-16</p><a href="#">Выполнение работы по строительству предварительный постов весового и габаритного контроля на дорогах</a></td>
+													<td>МЭЙКОР<br/>
+														<a href="#">СЗФО,</a>
+														<a href="#">ЦФО,</a>
+														<a href="#">ЮФО,</a>
+														<a href="#">УФО,</a>
+														<a href="#">ПФО,</a>
+														<a href="#">СКФО,</a>
+														<a href="#">ДФО,</a>
+														<a href="#">СФО,</a>
+													</td>
+													<td><p>До 11:00 <br/> 18 Мар </p> 2016</td>
+													<td><a href="#"><img src="images_new/purch_icon.gif" alt=""><div class="tooltip"><p>Открыто</p></div></a></td>
+												</tr>
+												<tr>
+													<td><p>10 Мар</p> 2016</td>
+													<td><p>0503/26/19-16</p><a href="#">Выполнение работы по строительству предварительный постов весового и габаритного контроля на дорогах</a></td>
+													<td>МЭЙКОР<br/>
+														<a href="#">СЗФО,</a>
+														<a href="#">ЦФО,</a>
+														<a href="#">ЮФО,</a>
+														<a href="#">УФО,</a>
+														<a href="#">ПФО,</a>
+														<a href="#">СКФО,</a>
+														<a href="#">ДФО,</a>
+														<a href="#">СФО,</a>
+													</td>
+													<td><p>До 11:00 <br/> 18 Мар </p> 2016</td>
+													<td><a href="#"><img src="images_new/purch_icon.gif" alt=""><div class="tooltip"><p>Открыто</p></div></a></td>
+												</tr>
+												<tr>
+													<td><p>10 Мар</p> 2016</td>
+													<td><p>0503/26/19-16</p><a href="#">Выполнение работы по строительству предварительный постов весового и габаритного контроля на дорогах</a></td>
+													<td>МЭЙКОР<br/>
+														<a href="#">СЗФО,</a>
+														<a href="#">ЦФО,</a>
+														<a href="#">ЮФО,</a>
+														<a href="#">УФО,</a>
+														<a href="#">ПФО,</a>
+														<a href="#">СКФО,</a>
+														<a href="#">ДФО,</a>
+														<a href="#">СФО,</a>
+													</td>
+													<td><p>До 11:00 <br/> 18 Мар </p> 2016</td>
+													<td><a href="#"><img src="images_new/purch_icon.gif" alt=""><div class="tooltip"><p>Открыто</p></div></a></td>
+												</tr>
+												<tr>
+													<td><p>10 Мар</p> 2016</td>
+													<td><p>0503/26/19-16</p><a href="#">Выполнение работы по строительству предварительный постов весового и габаритного контроля на дорогах</a></td>
+													<td>МЭЙКОР<br/>
+														<a href="#">СЗФО,</a>
+														<a href="#">ЦФО,</a>
+														<a href="#">ЮФО,</a>
+														<a href="#">УФО,</a>
+														<a href="#">ПФО,</a>
+														<a href="#">СКФО,</a>
+														<a href="#">ДФО,</a>
+														<a href="#">СФО,</a>
+													</td>
+													<td><p>До 11:00 <br/> 18 Мар </p> 2016</td>
+													<td><a href="#"><img src="images_new/purch_icon.gif" alt=""><div class="tooltip"><p>Открыто</p></div></a></td>
+												</tr>
+												<tr>
+													<td><p>10 Мар</p> 2016</td>
+													<td><p>0503/26/19-16</p><a href="#">Выполнение работы по строительству предварительный постов весового и габаритного контроля на дорогах</a></td>
+													<td>МЭЙКОР<br/>
+														<a href="#">СЗФО,</a>
+														<a href="#">ЦФО,</a>
+														<a href="#">ЮФО,</a>
+														<a href="#">УФО,</a>
+														<a href="#">ПФО,</a>
+														<a href="#">СКФО,</a>
+														<a href="#">ДФО,</a>
+														<a href="#">СФО,</a>
+													</td>
+													<td><p>До 11:00 <br/> 18 Мар </p> 2016</td>
+													<td><a href="#"><img src="images_new/purch_icon.gif" alt=""><div class="tooltip"><p>Открыто</p></div></a></td>
+												</tr>
+												<tr>
+													<td><p>10 Мар</p> 2016</td>
+													<td><p>0503/26/19-16</p><a href="#">Выполнение работы по строительству предварительный постов весового и габаритного контроля на дорогах</a></td>
+													<td>МЭЙКОР<br/>
+														<a href="#">СЗФО,</a>
+														<a href="#">ЦФО,</a>
+														<a href="#">ЮФО,</a>
+														<a href="#">УФО,</a>
+														<a href="#">ПФО,</a>
+														<a href="#">СКФО,</a>
+														<a href="#">ДФО,</a>
+														<a href="#">СФО,</a>
+													</td>
+													<td><p>До 11:00 <br/> 18 Мар </p> 2016</td>
+													<td><a href="#"><img src="images_new/purch_icon.gif" alt=""><div class="tooltip"><p>Открыто</p></div></a></td>
+												</tr>
+												<tr>
+													<td><p>10 Мар</p> 2016</td>
+													<td><p>0503/26/19-16</p><a href="#">Выполнение работы по строительству предварительный постов весового и габаритного контроля на дорогах</a></td>
+													<td>МЭЙКОР<br/>
+														<a href="#">СЗФО,</a>
+														<a href="#">ЦФО,</a>
+														<a href="#">ЮФО,</a>
+														<a href="#">УФО,</a>
+														<a href="#">ПФО,</a>
+														<a href="#">СКФО,</a>
+														<a href="#">ДФО,</a>
+														<a href="#">СФО,</a>
+													</td>
+													<td><p>До 11:00 <br/> 18 Мар </p> 2016</td>
+													<td><a href="#"><img src="images_new/purch_icon.gif" alt=""><div class="tooltip"><p>Открыто</p></div></a></td>
+												</tr>
+												<tr>
+													<td><p>10 Мар</p> 2016</td>
+													<td><p>0503/26/19-16</p><a href="#">Выполнение работы по строительству предварительный постов весового и габаритного контроля на дорогах</a></td>
+													<td>МЭЙКОР<br/>
+														<a href="#">СЗФО,</a>
+														<a href="#">ЦФО,</a>
+														<a href="#">ЮФО,</a>
+														<a href="#">УФО,</a>
+														<a href="#">ПФО,</a>
+														<a href="#">СКФО,</a>
+														<a href="#">ДФО,</a>
+														<a href="#">СФО,</a>
+													</td>
+													<td><p>До 11:00 <br/> 18 Мар </p> 2016</td>
+													<td><a href="#"><img src="images_new/purch_icon.gif" alt=""><div class="tooltip"><p>Открыто</p></div></a></td>
+												</tr>
+												<tr>
+													<td><p>10 Мар</p> 2016</td>
+													<td><p>0503/26/19-16</p><a href="#">Выполнение работы по строительству предварительный постов весового и габаритного контроля на дорогах</a></td>
+													<td>МЭЙКОР<br/>
+														<a href="#">СЗФО,</a>
+														<a href="#">ЦФО,</a>
+														<a href="#">ЮФО,</a>
+														<a href="#">УФО,</a>
+														<a href="#">ПФО,</a>
+														<a href="#">СКФО,</a>
+														<a href="#">ДФО,</a>
+														<a href="#">СФО,</a>
+													</td>
+													<td><p>До 11:00 <br/> 18 Мар </p> 2016</td>
+													<td><a href="#"><img src="images_new/purch_icon.gif" alt=""><div class="tooltip"><p>Открыто</p></div></a></td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+									<div class="zaprosi-paginator">
+										<button class="prev">▼</button>
+										<ul>
+											<li><a href="#">1</a></li>
+											<li><a href="#">...</a></li>
+											<li><a href="#">5</a></li>
+											<li><a href="#">6</a></li>
+											<li><a href="#">7</a></li>
+											<li><a href="#">8</a></li>
+											<li><a href="#">9</a></li>
+											<li><a href="#">...</a></li>
+											<li><a href="#">12</a></li>
+										</ul>
+										<button class="next">▼</button>
+									</div>
+									<div class="zaprosi-status">
+										<ul>
+											<li>
+												<a href="#"><img src="images_new/purch_icon_1.gif" alt=""> Открыто</a>
+											</li>
+											<li>
+												<a href="#"><img src="images_new/purch_icon_2.gif" alt=""> Закрыто</a>
+											</li>
+											<li>
+												<a href="#"><img src="images_new/purch_icon_3.gif" alt=""> Отменено</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="clear"></div>
+						</div>
+						<!-- <div class="back">
+							<a href="javascript:history.go(-1)" class="a-togreen m bk">Назад</a>
+						</div> -->
+					</div>
+
+
+					<div id="sidebar">
+						<div class="keyphrases">													
+							<div class="slider">
+								<div class="slide-item hidden" id="bx_651765591_61" style="display: none;">
+									<div class="number">24/7/365</div>
+									<div class="text">
+										<font face="Verdana" size="4">поддержка заказчиков по всей России</font>
+									</div>
+								</div>
+								<div class="slide-item hidden" id="bx_651765591_1590" style="display: block;">
+									<a href="http://localhost/services/" class="a-null">			
+										<div class="number">«ОДНО ОКНО»</div>
+										<div class="text">
+											<font face="Verdana" size="4">для решения всех задач</font>
+										</div>
+									</a>		
+								</div>
+								<div class="slide-item hidden" id="bx_651765591_109" style="display: none;">
+									<a href="http://localhost/about/key_facts/dostizheniya-i-reytingi/" class="a-null">			
+										<div class="number">В TOP-100</div>
+										<div class="text">
+											<font face="Verdana" size="4">лидеров мирового аутсорсинга <br> по версии IAOP</font>
+										</div>
+									</a>		
+								</div>
+								<div class="slide-item hidden" id="bx_651765591_1594" style="display: none;">
+									<a href="http://localhost/about/key_facts/dostizheniya-i-reytingi/" class="a-null">			
+										<div class="number">1 МЕСТО</div>
+										<div class="text">
+											<font face="Verdana" size="4">среди крупнейших <br> поставщиков <br> ИТ-услуг </font>
+										</div>
+									</a>		
+								</div>
+								<div class="slide-item hidden" id="bx_651765591_1597" style="display: none;">
+									<div class="number">4 000+</div>
+									<div class="text"><font face="Verdana" size="4">технических специалистов <br> в штате <br> по всей России</font>
+								</div>
+							</div>
+						</div>
+						<div class="dots content">
+							<div class="dot" data-i="1"></div>
+							<div class="dot selected" data-i="2"></div>
+							<div class="dot" data-i="3"></div>
+							<div class="dot" data-i="4"></div>
+							<div class="dot" data-i="5"></div>
+						</div>
+
+						<script src="/bitrix/templates/rus/js/devs/social.js"></script>
+
+						<div class="soc-slider">
+							<a onclick="Share('fb', true)">
+								<img border="0" src="/upload/iblock/0c3/0c3c7514ba30f798c80a9f6b61b8268c.png" alt="facebook" title="Ссылка на сеть &quot;Facebook&quot;">
+							</a>
+							<a onclick="Share('in', true)">
+								<img border="0" src="/upload/iblock/4e6/linkedin-icon.png" alt="linkedin" title="Ссылка на сеть &quot;LinkedIn&quot;">
+							</a>
+							<a onclick="Share('tw', true)">
+								<img border="0" src="/upload/iblock/246/246ffb7c84c5333dd2aa4fa8d769f1e7.png" alt="twitter" title="Ссылка на сеть &quot;Twitter&quot;">
+							</a>
+							<a onclick="Share('tw', true)" href="">
+								<img border="0" src="" alt="" title="">
+							</a>
+						</div>
+						<div class="dia-border-base"> </div>
+					</div>
+
+					<div class="sidebar-inner">
+						<div id="right-menu">
+							<h2>Главные <br/> новости закупок</h2>
+							<img src="images_new/sidebar_news.gif" alt="">
+							<div class="sidebar-news snews_1">
+								<p><span>22 сентября 2015</span><br/> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, mollitia maxime praesentium aspernatur, quas fuga.</p>
+							</div>
+							<div class="sidebar-news snews_1">
+								<p><span>22 сентября 2015</span><br/> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, mollitia maxime praesentium aspernatur, quas fuga.</p>
+							</div>
+							<div class="sidebar-news snews_1">
+								<p><span>22 сентября 2015</span><br/> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, mollitia maxime praesentium aspernatur, quas fuga.</p>
+							</div>
+							<a href="#">Все новости закупок</a>
+						</div>
+					</div>
+				</div>
+
+				<div id="footer">
+				<div class="footer-content">
+					<div class="footer-left">
+						<div class="copyright">
+							© MAYKOR, 2016						</div>
+						<div>
+							<a class="a-green" style="font-style: normal;" href="/map.php">КАРТА САЙТА</a>
+						</div>
+						<div id="search">
+								<form action="/search/index.php">
+									<input class="search-box" type="text" name="q">
+									<input class="search-button" type="submit" name="s" id="search-submit-button" value="" onfocus="this.blur()" style="background-image: url(images/search.png);">
+								</form>						
+						</div>
+					</div>
+
+					<div class="footer-right">
+						<div class="RSS"></div>
+						<div id="soc-links">								
+							<a href="https://www.facebook.com/MAYKOR.official" target="_blank">
+								<div class="soc-img" style="background-image: url(images_new/soc_1.gif)" alt="facebook" title="Ссылка на сеть &quot;Facebook&quot;">
+								</div>
+							</a>
+
+							<a href="http://www.linkedin.com/company/maykor/" target="_blank">
+								<div class="soc-img" style="background-image: url(images_new/soc_2.gif)" alt="linkedin" title="Ссылка на сеть &quot;LinkedIn&quot;">
+								</div>
+							</a>
+
+							<a href="https://vk.com/gk_maykor" target="_blank">
+								<div class="soc-img" style="background-image: url(images_new/soc_3.gif)" alt="vkontakte" title="Ссылка на сеть &quot;В контакте&quot;">
+								</div>
+							</a>
+
+							<a href="http://www.youtube.com/channel/UC_DUOUFjAXoZsCDslunJI3g" target="_blank">
+								<div class="soc-img" style="background-image: url(images_new/soc_4.gif)" alt="youtube" title="Ссылка на сеть &quot;YouTube&quot;">
+								</div>
+							</a>
+
+						</div>
+
+						<div class="iphone-lang-toggle">
+							<span class="" data-name="ru">EN</span>
+							<span class="active" data-name="en">RU</span>
+						</div>
+					</div>
+				</div>		
+			</div>
+		</div>	
+	</div>

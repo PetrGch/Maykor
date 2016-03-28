@@ -1,0 +1,45 @@
+@media (max-width: 990px) {
+	.press-pop > div {
+		width: 120px;
+	}
+}
+
+
+.press-pop .map-level-0  {
+	font-size: 14px;
+	margin-left: 3%;
+	margin-bottom: 20px;
+}
+
+.press-pop .map-item {
+	margin-top: 15px;
+}
+
+.press-pop .a-serv:link,
+.press-pop .a-serv:visited {
+	text-decoration: none;
+	color: #868B8E;
+}
+
+.press-pop .a-serv:hover {
+	text-decoration: underline;
+	color: #00ACBD;	
+}
+
+.press-pop .a-serv:before {
+	position: relative;
+	display: inline-block;
+	margin-right: 3px;
+	content: "►";
+}
+
+.press-pop .a-h-serv:link,
+.press-pop .a-h-serv:visited {
+	font-weight: bold;
+	color: #00ACBD;	
+	text-decoration: none;
+}
+
+.press-pop .a-h-serv:hover {
+	text-decoration: underline;
+}

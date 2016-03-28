@@ -1,0 +1,12 @@
+.general-map * {
+	display: block;
+	margin-top: 10px;
+}
+
+.general-map a:link {
+	text-decoration: none;
+}
+
+.general-map a:hover {
+	text-decoration: underline;
+}

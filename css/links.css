@@ -1,0 +1,276 @@
+#workarea-inner a:link,
+#workarea-inner a:visited {
+	color: #00acbd;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a {
+	cursor: pointer;
+}
+
+a.a-null:focus {
+	outline: none !important;
+	border: none !important;
+}
+
+a.a-null {
+	text-decoration: none;
+	color: inherit;
+}
+
+.a-bolder:link, .a-bolder:visited,
+.a-green:hover, 
+.a-grey:hover,
+.a-togreen:link, .a-togreen:visited,
+.a-quote:link, .a-quote:visited,
+.r-header a:link {
+	text-decoration: none;
+}
+
+.a-togreen {
+	line-height: 1.2;
+}
+
+.a-bolder:hover {
+	text-decoration: underline;
+}
+
+.a-green, .a-green:visited {
+	font-size: 12px !important;
+	text-decoration: underline;
+	font-style: italic;
+	color: #00ACBD;
+}
+
+.a-grey:link, .a-grey:visited {
+	color: #868B8E !important;
+}
+
+.a-grey:hover {
+	color: #00ACBD !important;	
+}
+
+.a-togreen:hover {
+	color: #00ACBD !important;	
+	text-decoration: underline;
+}
+
+.a-togreen.a-null {
+	text-decoration: none;
+}
+
+.a-quote, .a-quote:link, .a-quote:visited {
+	color: #434343;
+	font-size: 13px;
+	font-style: italic;
+	font-family: Georgia;
+	display: inline-block;
+	width: 100%;
+	word-wrap: break-word;
+	padding-right: 5px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+a.a-quote:hover {
+	color: #00ACBD;	
+}
+
+.a-quote:before, .a-quote:after {
+	position: absolute;
+	font-size: 20px;
+	color: #21aca4;
+}
+
+.a-quote:before {
+	content: "«";
+	margin-top: -5px;
+	margin-left: -15px;
+}
+
+.a-quote:after {
+	content: "»";
+	margin-top: -5px;
+	margin-left: 5px;	
+}
+
+.r-header a:link, .r-header a:visited {
+	font-weight: bold;
+	font-size: 19px;
+	color: #00ACBD;	
+}
+
+.r-header a:hover {
+	color: #2184ac;
+}
+
+.a-arr:after {
+	position: relative;
+	display: inline-block;
+	margin-left: 5px;
+	content: '\25BA';
+}
+
+.adm-navigation {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.adm-navigation a,
+.adm-nav-page-active  {
+	text-transform: uppercase;
+	background-color: transparent;
+	display: inline-block;
+	width: 20px;
+	text-align: center;
+	margin: 0;
+	cursor: pointer;
+}
+
+.xs {
+	font-size: 11px;
+}
+
+.s {
+	font-size: 12px;
+}
+
+.m {
+	font-size: 14px;
+}
+
+.l {
+	font-size: 18px;
+}
+
+.xl {
+	font-size: 20px;
+}
+
+.xxl {
+	line-height: 1.1;
+	font-size: 35px;
+}
+
+.mm {
+	font-size: 16px;
+}
+
+.bk {
+	color: black !important;
+}
+
+.we {
+	color: white !important;
+} 
+
+.wgy {
+	color: #434343 !important;
+}
+
+.gy {   
+	color: #434343 !important;
+}
+
+.gn {
+	color: #00ACBD !important;
+}
+
+.map-columns a:hover {
+	text-decoration: underline !important;
+}
+
+a.f-button:link,
+a.f-button:visited,
+a.f-button:hover,
+a.f-button:active {
+	line-height: 30px;
+	text-align: center;
+	color: #fff !important;
+	text-decoration: none !important;
+}
+
+.BEHOLD {
+	border-top: 2px solid #d0d0d0;
+	border-bottom: 2px solid #d0d0d0;
+	
+	padding: 15px 25px 15px 0;
+	margin: 20px -25px 0 0;
+	color: #00acbd;
+	position: relative;
+}
+
+[tooltip] {
+	position: relative;
+}
+
+[tooltip]:after, [tooltip]:before {
+	position: absolute;
+    left: 0;
+    z-index: 100;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.25s ease-in-out;   
+}
+[tooltip]:after {
+    background-color: rgba(33,172,164,0.9);
+    color: #FFF;
+    content: attr(tooltip); 
+    max-width: 300px;
+    line-height: normal;
+    bottom: -31px;
+    max-width: 300px;
+    min-width: 250px;
+    padding: 5px 3px;     
+    white-space: nowrap;
+}
+
+[tooltip]:before {
+	content:'';
+    height:0;
+    width:0;
+    border:solid transparent;
+    border-width:5px;
+    pointer-events:none;
+    border-bottom-color: rgba(33,172,164,0.9);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: -7px auto;
+}
+        
+[tooltip]:hover:after, [tooltip]:hover:before {
+    opacity: 1;
+    visibility: visible;
+}
+
+@media screen and (max-width: 870px) {
+	.BEHOLD {
+		margin-right: -15px;
+	}
+}
+
+@media screen and (max-width: 730px) {
+
+	.adm-navigation {
+		width: 95%;
+		padding-top: 25px;
+		margin-bottom: 20px;
+	}
+
+	.mat-list .a-green, .a-green:visited {
+		font-size: 10px !important;
+	}
+
+	.a-green.a-arr {
+		font-size: 12px;	
+	}
+
+	.BEHOLD {
+		display: none;
+	}
+
+}

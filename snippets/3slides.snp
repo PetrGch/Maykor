@@ -1,0 +1,21 @@
+<div class="snippet">
+	<div class="dots inn">
+		<div class="center">
+			<div data-i="1" class="dot selected"></div>
+			<div data-i="2" class="dot"></div>
+			<div data-i="3" class="dot"></div>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<div class="slider">
+		<div class="slide-item hidden" style="display: block;">
+			<img width="auto" height="auto" border="0" title="Баннер 3" alt="Баннер 3" src="/bitrix/templates/rus/images/dload.png" class="preview">
+		</div>
+		<div class="slide-item hidden" style="display: block;">
+			<img width="auto" height="auto" border="0" title="Баннер 2" alt="Баннер 2" src="/bitrix/templates/rus/images/dload.png" class="preview">
+		</div>
+		<div class="slide-item hidden" style="display: block;">
+			<img width="auto" height="auto" border="0" title="Баннер 1" alt="Баннер 1" src="/bitrix/templates/rus/images/dload.png" class="preview">
+		</div>
+	</div>
+</div>

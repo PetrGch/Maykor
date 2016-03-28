@@ -1,0 +1,137 @@
+.r1.circle-back:after,
+.r1.circle-back:before {
+	-webkit-transform: rotate(280deg); 
+	   -moz-transform: rotate(280deg); 
+        -ms-transform: rotate(280deg); 
+         -o-transform: rotate(280deg); 
+            transform: rotate(280deg);
+}
+
+.r5.circle-back:after,
+.r5.circle-back:before {
+	-webkit-transform: rotate(70deg); 
+	   -moz-transform: rotate(70deg); 
+        -ms-transform: rotate(70deg); 
+         -o-transform: rotate(70deg); 
+            transform: rotate(70deg);
+}
+
+.r4.circle-back:after,
+.r4.circle-back:before {
+	-webkit-transform: rotate(140deg); 
+	   -moz-transform: rotate(140deg); 
+        -ms-transform: rotate(140deg); 
+         -o-transform: rotate(140deg); 
+            transform: rotate(140deg);
+}
+
+.r2.circle-back:after,
+.r2.circle-back:before {
+	-webkit-transform: rotate(210deg); 
+	   -moz-transform: rotate(210deg); 
+        -ms-transform: rotate(210deg); 
+         -o-transform: rotate(210deg); 
+            transform: rotate(210deg);
+}
+
+.r3.circle-back:after,
+.r3.circle-back:before {
+    -webkit-transform: rotate(0deg); 
+	   -moz-transform: rotate(0deg); 
+        -ms-transform: rotate(0deg); 
+         -o-transform: rotate(0deg); 
+            transform: rotate(0deg);
+}
+
+.circle {
+	margin: 0 auto;
+	text-align: center;
+	width: 110px;
+	min-height: 110px;
+	position: relative;
+}
+
+
+.circle .zone:hover {
+	opacity: 1;
+}
+
+.circle .zone {
+	background: url(../images/emboss.png) no-repeat 50% 50%;
+	z-index: 5;
+	opacity: 0;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+
+	-webkit-transition: all 1s;
+	   -moz-transition: all 1s;
+	 	 -o-transition: all 1s;
+	 		transition: all 1s;
+}
+
+.circle .circle-back {
+	z-index: 0;
+	position: relative;
+	height: 110px;
+	border-radius: 110px; 
+	background: -moz-linear-gradient(-45deg,  #0068ac 0%, #23b1a5 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#0068ac), color-stop(100%,#23b1a5)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg,  #0068ac 0%,#23b1a5 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg,  #0068ac 0%,#23b1a5 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg,  #0068ac 0%,#23b1a5 100%); /* IE10+ */
+	background: linear-gradient(135deg,  #0068ac 0%,#23b1a5 100%); /* W3C */
+	background-color: #21ACA4;
+}
+
+.circle .circle-back:before {
+	z-index: 1;
+	content: "";
+	position: absolute;
+
+	border-radius: 125px; 
+	border: solid 2px transparent;
+}
+
+.circle .circle-back:before {
+	border-width: 3px;
+	border-top: 3px solid #005288;
+	top: -5px;
+	left: -4px;
+	height: 113px;
+	width: 113px;
+}
+
+.circle .circle-front {
+	background: none;
+	z-index: 3;
+	position: absolute;
+	overflow: hidden;
+	background-color: white;
+	width: 102px;
+	height: 102px;
+	border-radius: 150px;
+	left: 4px;
+	top: 4px;
+}
+
+.circle .circle-front .inner {
+	line-height: 1;
+	color: #b02143;
+	z-index: 4;
+	width: 100%;
+	margin-left: 50%;
+	top: 40px;
+	left: -50px;
+	text-align: center;
+	position: relative;
+}
+
+.circle .circle-front .inner > div {
+	margin-bottom: 100px;
+	height: 50px;
+}
+
+.circle .xxl {
+	line-height: .6;
+}

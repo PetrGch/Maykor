@@ -1,0 +1,23 @@
+.r-menu-item {
+	border-bottom: 1px solid #2184ac;
+}
+
+.r-menu-item:last-of-type {
+	border: none;
+}
+
+.r-menu-item .selected {
+	color: #21aca4 !important;
+}
+
+.r-menu-item {
+	padding: 10px 0;
+}
+
+.r-menu-list {
+	margin-top: 10px;
+}
+
+.r-menu-list li {
+	padding: 5px 0 5px 5px;
+}

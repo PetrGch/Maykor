@@ -1,0 +1,98 @@
+.page-section-header.opened:after, 
+.page-section-header.closed:after,
+.f-dd-head:after,
+.ar-little-down,
+.i-pdf,
+.arr-r.on,
+.arr-r,
+.arr-l,
+.arr-l.on,
+.ach-left,
+.ach-right{
+	background-image: url(../images/sprites.png);
+	background-repeat: no-repeat;
+	content: "";
+}
+
+.ar-little-up{
+	background-position: -7px -36px ;
+	width: 11px;
+	height: 6px;
+}
+
+.cross{
+	background-position: -135px -33px ;
+	width: 14px;
+	height: 13px;
+}
+
+.dload{
+	background-position: -99px 0;
+	width: 30px;
+	height: 24px;
+}
+
+.ach-right.on{
+	background-position: -218px 0;
+	width: 31px;
+	height: 79px;
+}
+
+.ach-right{
+	background-position: -217px -98px ;
+	width: 31px;
+	height: 79px;
+}
+
+.ach-left.on{
+	background-position: -167px 0;
+	width: 31px;
+	height: 79px;
+}
+
+.ach-left{
+	z-index: 50;
+	background-position: -168px -99px ;
+	width: 31px;
+	height: 79px;
+}
+.ach-right.on, .ach-right, .ach-left.on, .ach-left {
+	margin: 11px 23px;
+	padding: 0;
+}
+
+.minus{
+	background-position: -51px -30px ;
+	width: 18px;
+	height: 18px;
+}
+
+.search{
+	background-position: -51px -60px ;
+	width: 30px;
+	height: 30px;
+}
+
+.plus{
+	background-position: -51px -3px ;
+	width: 18px;
+	height: 18px;
+}
+
+.red-ar{
+	background-position: -51px -101px ;
+	width: 52px;
+	height: 51px;
+}
+
+@media screen and (max-width: 1024px) {
+	.ach-right.on, .ach-right, .ach-left.on, .ach-left{
+	    margin: 11px 14px;
+	}
+}
+
+@media screen and (max-width: 870px) {
+	.ach-right.on, .ach-right, .ach-left.on, .ach-left{
+	    margin: 11px 10px;
+	}
+}

@@ -1,0 +1,94 @@
+.h1red {
+	color: #b02143;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.h2red {
+	color: #b02143;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.h3red {
+	color: #b02143;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.h1gray {
+	color: #434343;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.h2gray {
+	color: #434343;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.h3gray {
+	color: #434343;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.h1green {
+	color: #21aca4;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.h2green {
+	color: #21aca4;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.h3green {
+	color: #21aca4;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.pQuote {
+	color: #434343;
+	font-size: 13px; 
+	font-style: italic;	
+}
+
+.pLabel {
+	color: #434343;
+	font-size: 12px; 
+}
+
+.pGeneral {
+	color: #434343;
+	font-size: 14px; 
+	font-style: italic;	
+	font-family: Georgia;
+}
+
+#workarea ul li {
+	list-style-image: url(images/b-list.png);
+	margin-left: 15px;
+	margin-bottom: 5px;
+}
+
+.r-menu-list li {
+	list-style: none !important;
+	margin-left: 0px;
+}
+
+#top-menu li {
+	list-style: none !important;
+}
+
+.a-arr {
+	
+}
+
+.a-arr:hover {
+	text-decoration: none;
+}

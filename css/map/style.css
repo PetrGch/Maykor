@@ -1,0 +1,477 @@
+map{
+    position: relative;
+}
+
+area {
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);  
+text-decoration: none;
+outline: none !important;
+border: none !important;   
+}
+
+#map-hover area:focus,
+#map-hover area:active,
+#map-hover area {
+    outline: none !important;
+    border: none !important;   
+}
+
+.map-image{
+    position: relative;
+    z-index: 9;
+}
+
+.map-hover-areas div{
+    position: absolute;
+}
+
+
+.map-hover-areas div img, .client_count{
+    display: none;
+}   
+
+.map-hover-areas div.show img,.map-hover-areas div.show .client_count{
+    display: block;
+}
+
+.map-hover-areas div span{
+    font-size: 8px;
+    color:#0c72af;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.map-hover-areas div.show span{
+    color: white;
+}
+
+.map-hover-areas div.outside-text span{
+    color: #0c72af;
+}
+
+
+
+div.client_count{
+    color: #b02143 !important;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 200px;
+
+}
+
+.map-hover-areas div.client_count span.count{
+    font-size: 30px;
+    color: #b02143 !important;
+}
+
+.map_circle,
+.client_count,
+.map-hover-areas span.name, div.client_count
+{
+    position: absolute;
+}
+
+
+/*  РџР Р�Р’РћР–РЎРљР�Р™ */
+#map-area1 {
+    left: 115px;
+    top: 182px;
+}
+
+#map-area1 span.name{
+    left: 32px;
+    top: 32px;
+    width: 80px;    
+}
+
+#map-area1 .map_circle{
+     top: -10px;
+}
+
+#map-area1 .client_count{
+    left: 114px;
+    top: -15px;
+}    
+
+
+/* РљР Р«Рњ */
+#map-area2 {
+    left: 23px;
+    top: 208px;
+}
+
+#map-area2 span.name{
+    left: -18px;
+    top: -12px;
+    width: 80px;    
+}
+
+#map-area2 .map_circle {
+    left: -28px;
+    top: -37px;
+}
+
+#map-area2 .client_count{
+    left: 25px;
+    top: -60px;
+}  
+
+/* РЎР•Р’Р•Р Рћ Р—РђРџРђР” */
+#map-area3 {
+    left: 71px;
+    top: 47px;
+}
+
+#map-area3 span.name {
+    left: 107px;
+    top: 115px;
+    width: 100px;
+}
+
+#map-area3 .map_circle {
+    left: 59px;
+    top: 6px;
+}
+
+
+#map-area3 .client_count{
+    left: 220px;
+    top: 13px;
+}  
+
+/* Р¦РµРЅС‚СЂ */
+#map-area4 {
+    left: 79px;
+    top: 141px;
+}
+
+
+#map-area4 span.name {
+    left: 14px;
+    top: 40px;
+    width: 100px;
+}
+
+#map-area4 .map_circle {
+    left: -11px;
+    top: -10px;
+}
+
+
+#map-area4 .client_count{
+    left: 77px;
+    top: -25px;
+}  
+
+/* Р®Р¶РЅС‹Р№ */
+#map-area5 {
+    left: 44px;
+    top: 226px;
+}
+
+
+#map-area5 span.name {
+    left: 18px;
+    top: 16px;
+    width: 100px;
+}
+
+#map-area5 .map_circle {
+    left: -11px;
+    top: -24px;
+}
+
+
+#map-area5 .client_count{
+    left: 95px;
+    top: -9px;
+}  
+
+/* РљР°РІРєР°Р· */
+#map-area6 {
+    left: 50px;
+    top: 255px;
+}
+
+
+#map-area6 span.name {
+    left: 30px;
+    top: 58px;
+    width: 150px;
+}
+
+#map-area6 .map_circle {
+    left: -22px;
+    top: -12px;
+}
+
+
+
+#map-area6 .client_count{
+    left: 60px;
+    top: -8px;
+}  
+
+/* РЈСЂР°Р» */
+#map-area7 {
+    left: 193px;
+    top: 136px;
+}
+
+
+#map-area7 span.name {
+    left: 69px;
+    top: 95px;
+    width: 100px;
+}
+
+#map-area7 .map_circle {
+    left: 10px;
+    top: -6px;
+}
+
+
+#map-area7 .client_count{
+    left: 193px;
+    top: 41px;
+}  
+
+/* РЎРёР±РёСЂСЊ */
+#map-area8 {
+    left: 260px;
+    top: 79px;
+}
+
+
+#map-area8 span.name{
+    left: 105px;
+    top: 185px;
+    width: 100px;
+}
+
+#map-area8 .map_circle {
+    left: 5px;
+    top: 24px;
+}
+
+
+
+#map-area8 .client_count{
+    left: 245px;
+    top: 39px;
+}  
+
+/* Р’РѕСЃС‚РѕРє */
+#map-area9 {
+    left: 432px;
+    top: 21px;
+}
+
+
+#map-area9 span.name {
+    left: 55px;
+    top: 175px;
+    width: 120px;
+}
+
+#map-area9 .map_circle {
+    left: 5px;
+    top: 46px;
+}
+
+
+#map-area9 .client_count{
+    right: 216px;
+    text-align: right;
+    top: 40px;
+}  
+
+
+
+/****** ЕВРОПА ******/
+.country{
+    position: absolute;
+}
+
+#estoniay{
+    left: 251px;
+    top: 18px;    
+}
+
+#estoniay span{
+    left: 37px;
+    top: 21px;    
+}
+
+
+#latvia{}
+
+#latvia span{
+    left: 275px;
+    top: 70px;    
+}
+
+#litva{}
+#litva span{
+    left: 256px;
+    top: 92px;   
+}
+
+#belarus{}
+#belarus span{
+    left: 282px;
+    top: 138px;  
+}
+
+#ukraine{}
+#ukraine span{
+    left: 320px;
+    top: 200px;    
+}
+
+#armenia{
+    left: 480px;
+    top: 326px;
+}
+#armenia span{
+    left: -29px;
+    top: 4px;    
+}
+
+#kazahstan{
+    left: 516px;
+    top: 119px;
+}
+#kazahstan span{
+    left: 92px;
+    top: 93px;
+}
+
+#polsha{
+    left: 169px;
+    top: 112px;
+}
+
+#polsha span{
+    left: 34px;
+    top: 45px;    
+}
+
+
+#chehia  {
+    left: 147px;
+    top: 180px;
+}
+
+#chehia span{
+    left: 23px;
+    top: 18px;
+}
+
+
+#vengria{
+    left: 189px;
+    top: 219px;
+}
+
+#vengria span{
+    left: 10px;
+    top: 20px;    
+}
+
+#ruminia{
+    left: 236px;
+    top: 225px;
+}
+
+#ruminia span{
+    left: 25px;
+    top: 33px;
+}
+
+#grecia{
+    left: 229px;
+    top: 323px;
+}
+
+#grecia span{
+    left: 25px;
+    top: 39px;    
+}
+
+
+#map-areaEUROPE .map_circle{
+    left: 151px;
+    top: 16px;
+}
+
+#map-areaEUROPE .client_count{
+    left: 504px;
+    top: 50px;
+}
+
+#turcia{
+
+}
+
+#turcia span{
+    left: 382px;
+    top: 345px;    
+}
+
+.radio a {
+
+    display: block;
+    float: left;
+    color: white;
+
+    padding: 0 20px;
+    line-height: 30px;
+
+
+    background:    -moz-linear-gradient(top,  #23b1a5 0%, #0068ac 100%); /* FF3.6+ */
+    background:        -webkit-gradient(linear, left top, left bottom, color-stop(0%,#23b1a5), color-stop(100%,#0068ac)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #23b1a5 0%,#0068ac 100%); /* Chrome10+,Safari5.1+ */
+    background:      -o-linear-gradient(top,  #23b1a5 0%,#0068ac 100%); /* Opera 11.10+ */
+    background:     -ms-linear-gradient(top,  #23b1a5 0%,#0068ac 100%); /* IE10+ */
+    background:         linear-gradient(to bottom,  #23b1a5 0%,#0068ac 100%); /* W3C */
+    background-color: #21ACA4;
+}
+
+.radio {
+    padding-bottom: 20px;
+}
+
+.radio .chooseMap:nth-child(1) {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.radio .chooseMap:nth-child(2) {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+a.chooseMap.active {
+    box-shadow: inset -2px 2px 10px rgba(0,0,0,0.5);
+}
+
+.map {
+    width: 740px;
+    position: relative;
+    height: 448px;
+    margin-bottom: 30px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 870px) {
+    .map {
+        left: -45px;
+        -webkit-transform: scale(.9);
+           -moz-transform: scale(.9);
+            -ms-transform: scale(.9);
+             -o-transform: scale(.9);
+                transform: scale(.9);
+     }
+}

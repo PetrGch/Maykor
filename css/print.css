@@ -1,0 +1,162 @@
+@page {
+	margin: 1cm;
+}
+
+@media print {
+
+	#header,
+	.popup,
+	.hidden-pop,
+	#serv-ind,
+	.news-line-ind,
+	.news-line,
+	.inov-skew,
+	.zoom .inner, 
+	.hots-left,
+	.ach-ind,
+	#footer,
+	#sidebar,
+	.visited-block,
+	.mat-list .preview,
+	.m-filters,
+	.l-history,
+	.back,
+	.vac-tgl,
+	.vacancy_feedback,
+	.vacancy_work,
+	.subscribe-btn,
+	.snippet_feedback,
+	.service_feedback,
+	.rec-slider,
+	.alls,
+	.recom-title,
+	.response_create,
+	.fin form {
+		display: none !important;
+		height: 0px !important;
+	}
+
+	#workarea-wrapper {
+		height: auto !important;
+		min-height: 1px !important;
+		border: 0;
+	}
+
+	.adm-nav-page-active {
+		border: 1px solid black;
+	}
+
+	.part-info .xxl {
+		margin-top: 50px;
+	}
+
+	.s-list,
+	.serv-three {
+		display: block !important;
+		border-bottom: 1px solid black;
+	}
+
+	.serv-three .w33,
+	.hots-right,
+	.inov-ind,
+	.sucsess-ind .title,
+	.sucsess-ind .zoom {
+		width: 100% !important;
+		float: none;
+	}
+
+	.inov-preview-ind {
+		float: left;
+		position: relative;
+		width: 50%;
+	}
+
+	.circle-back:before,
+	.page-section-header {
+		border: 0 !important;
+	}
+
+	.page-content img {
+		max-width: 100%;
+	}
+
+	.page-section-header {
+		margin: 0;
+		margin-top: 20px;
+		padding: 0;
+	}
+
+	.chooseMap.active {
+		font-weight: bold;
+		font-size: 120%;
+	}
+
+	body {
+		color: #555;
+	}
+
+	.mat-list .mat-head,
+	.mat-list .txt,
+	.mat-list .m5 {
+		height: auto !important;
+	}
+
+	.r-history {
+		height: auto !important;
+	}
+
+	.year-info {
+		display: block !important;
+		position: relative !important;
+		width: 100%;
+	}
+
+	.vac,
+	.mat-list {
+		margin: 20px 0;
+		border-bottom: 1px solid black;
+	}
+
+	.adm-navigation {
+		font-size: 10pt !important; 
+		margin-bottom: 20px;
+	}
+
+	.clients {
+		margin-top: 30px;
+	}
+
+	.stories .zoom {
+		width: 2000px !important;
+		max-width: 100%;
+		color: black !important;
+	}
+
+	.counterparts > div {
+		float: left !important;
+		width: 25% !important;
+	}
+
+	.person-detailed .w33.part .m20,
+	.person-detailed .w33.part,
+	.person-detailed {
+		max-width: 100%;
+		width: 9000px;
+	}
+
+	div.bx-yandex-view-layout {
+		max-width: 90%;
+		padding-right: 20%;
+	}
+
+	.tile-cont {
+		height: auto !important;
+	}
+
+	.tile-cont .tile {
+		width: 100% !important;
+		height: auto !important;
+		position: static !important;
+		float: none;
+	}
+}

@@ -1,0 +1,611 @@
+.popup {
+	display: none;
+	overflow: hidden;
+	overflow-y: scroll !important;
+	position: fixed;
+	z-index: 9999;
+	top: 0;
+	-webkit-transform: translateZ(999px);
+  	   -moz-transform: translateZ(999px);
+	 	 -o-transform: translateZ(999px);
+		-ms-transform: translateZ(999px);
+			transform: translateZ(999px);
+}
+
+#viewer {
+	min-height: 1500px;
+}
+
+#download {
+	display: none !important;
+}
+
+.photo-footer {
+	height: 60px;
+	border-radius: 0 0 4px 4px;
+	background-color: white;
+	padding: 0 50px;
+}
+
+.mfp-content {
+	background-color: white;
+	padding: 0 50px 0 50px;
+	border-radius: 4px;
+}
+
+.mfp-counter {
+	padding-right: 50px;
+	color: #00acbd !important;
+	font-weight: bold;
+}
+
+#more-slider {
+	width: 100%;
+	max-width: 1000px;
+	height: 230px;
+	margin: 10px auto 0;
+}
+
+.devil_link,
+.devil_link:visited {
+	display: block;
+	position: absolute;
+	width: 47%;
+	margin-left: 3%;
+	line-height: 1.6;
+	font-size: 14px;
+	line-height: 1.4;
+	color: #00acbd;
+	background-color: #e3e3e3;
+	background-image: url(../images/icon_question.png);
+	background-position: 15px 50%;
+	background-repeat: no-repeat;
+	padding: 15px 25px 15px 60px;
+	box-sizing: border-box;
+}
+
+.devil_link:hover {
+	text-decoration: underline;
+	color: #00acbd;
+}
+
+
+@media screen and (min-width: 730px) {
+	.popup {
+		display: none;
+		width: 100%;
+		height: 100%;
+		overflow: auto;
+	}
+
+	.popup-out {
+		top: 0;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		background-color: rgba(255,255,255,.7);
+		z-index: 0;
+	}
+
+	.popup-in {
+		font-size: 12px;
+		padding: 10px 30px 35px 30px;
+		width: 710px;
+		left: 50%;
+		top: 60px;
+		margin-left: -355px;
+		border: 3px solid #2184AC;
+		position: relative;
+		background-color: white;
+		box-shadow: 0 20px 0 -10px #21aca4;
+		margin-bottom: 60px;
+
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+
+		z-index: 1;
+	}
+
+	.popup-in .popup-close {
+		position: absolute;
+		width: 15px;
+		height: 15px;
+		right: 10px;
+		top: 10px;
+		background-image: url(../images/cross.png);
+		background-size: cover;
+	}
+
+	.hidden-pop {
+		display: none;
+		position: absolute;
+		line-height: 16px;
+		left: 0;
+		padding-top: 20px;
+		top: -20px;
+	}
+
+	.hidden-pop > div {
+		position: absolute;
+		text-align: left;
+		border: 2px solid #21aca4;
+		padding: 30px 10px 10px 10px;
+		background-color: white;
+	}
+
+	.clients-pop > div {
+		width: 170px;
+	}
+
+	.about-pop > div,
+	.press-pop > div {
+		width: 160px;	
+	}
+
+
+	.branch-pop > div {
+		width: 220px;
+	}
+
+	.serv-pop > div {
+		left: -5px;
+		width: 800px;
+	}
+
+}
+
+.popup-in.reload {
+	left: 50%;
+	top : 50%;
+	margin-top: -75px;
+	margin-left: -200px;
+	width : 400px;
+	height: 150px;
+}
+
+.popup-in.reload .text {
+	left: 0;
+	position: absolute;
+	text-align: center;	
+	width: 100%;
+	top: 50%;
+	margin-top: -20px;
+	line-height: 1.4;
+	font-size: 14px;
+	color: #00acbd;
+}
+
+.v-player {
+	height: 500px;
+}
+
+.player-button, 
+.soc-video {
+	width: 50%;
+	height: 35px;
+	margin-top: 10px;
+}
+
+.player-button {
+	float: left;
+}
+
+.soc-video {
+	float: right;
+}
+
+.player-button div {
+	cursor: pointer;
+	width: 33px;
+	height: 33px;
+	margin-right: 10px;
+	float: left;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.soc-video > div {
+	cursor: pointer;
+	width: 33px;
+	height: 33px;
+	margin-left: 10px;
+	float: right;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.soc-video > div:nth-child(4) {
+	background-image: url("../images/fbPl.png");
+}
+
+.soc-video > div:nth-child(3) {
+	background-image: url("../images/inPl.png");
+}
+
+.soc-video > div:nth-child(2) {
+	background-image: url("../images/vkPl.png");
+}
+
+.soc-video > div:nth-child(1) {
+	background-image: url("../images/twPl.png");
+}
+
+.player-button div:nth-child(1) {
+	background-image: url("../images/savePl.png");
+}
+
+.player-button > div:nth-child(2) {
+	background-image: url("../images/sendPl.png");
+}
+
+.player-button > div:nth-child(3) {
+	background-image: url("../images/subPl.png");
+}
+
+.vid-gallery {
+	height: 140px;
+	width: 100%;
+}
+
+.vid-gallery .ach-left,
+.vid-gallery .ach-right,
+.vid-gallery .ach-list,
+.vid-gallery .c_arrow_left,
+.vid-gallery .c_arrow_right {
+	height: 130px;
+}
+.vid-gallery .ach-left, .vid-gallery .ach-right,
+.vid-gallery .ach-left.on, .vid-gallery .ach-right.on {
+	margin: 26px 10px;
+}
+.vid-gallery .ach-list {
+	position: relative;
+	left: 15px;
+}
+
+.vid-gallery .mat-list {
+	margin-bottom: 10px;
+	margin-right: 10px !important;
+}
+
+.soc-video.bottom {
+	margin-right: 5px;
+	bottom: 15px;
+}
+
+.soc-video.bottom  div {
+	padding-top: 0px;
+}
+
+#fancybox-buttons.bottom {
+	border-radius: 0 0 5px 5px;
+	padding-top: 10px;
+	text-align: center;
+	bottom: 15px;
+	background-color: white;
+}
+.popup-content {
+	min-height: 150px;
+}
+.popup-content > div {
+	background-color: #fff;
+}
+.loading {
+	width: 100%;
+	background: url(../images/loader.gif) 50% 50% no-repeat;
+}
+
+
+#more-slider .vid-gallery .ach-left,
+#more-slider .vid-gallery .ach-right {
+	margin: 37px 24px;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 730px) {
+
+	#viewerContainer .mat-list {
+		width: 20%;
+		margin: 0;
+		margin-top: 20px;
+	}
+
+	#viewerContainer .mat-list:nth-child(1) {
+		margin-left: 35px;
+	}
+
+	#viewerContainer .rec-slider { 
+		width: 700px;
+		margin: 0 auto;
+	}
+
+	#more-slider .vid-gallery .ach-left, #more-slider .vid-gallery .ach-right {
+	    margin: 42px 1%;
+	}
+
+	#more-slider { 
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	#more-slider b {
+		padding-left: 20px;
+	}
+
+	#openFile,
+	#viewBookmark,
+	#secondaryToolbarToggle,
+	#sidebarToggle,
+	#viewFind,
+	#scaleSelectContainer,
+	.verticalToolbarSeparator,
+	#presentationMode  {
+		display: none !important;
+	}
+
+	div.verticalToolbarSeparator.hiddenSmallView.x {
+		display: block !important;
+	}
+
+	#toolbarViewerRight {
+		margin-right: 25px;
+	}
+
+
+}
+
+@media screen and (max-width: 730px) {
+
+	.photo-footer {
+		padding: 0 10px;
+		height: 50px;
+	}
+
+	.mfp-content,
+	.mfp-counter {
+		padding: 0 10px 0 10px;
+	}
+
+	.soc-video > div {
+		width: 33px;
+		height: 33px;
+		margin-left: 5px;
+	}
+
+	.player-button {
+		width: 40%;
+	}
+
+	.soc-video {
+		width: 60%;
+	}
+
+	.player-button div {
+		width: 33px;
+		height: 33px;
+		margin-right: 5px;
+	}
+
+	.popup {
+		display: none;
+		width: 100%;
+		height: 100%;
+		overflow-y: auto;
+		position: fixed;
+	}
+
+	.popup-out {
+		display: none;
+	}
+
+	.popup-in {
+		font-size: 12px;
+		padding: 10px;
+		width: 100%;
+		margin-bottom: 10px;
+		overflow: hidden;
+		border: 3px solid #2184AC;
+		position: relative;
+		background-color: white;
+		box-shadow: 0 20px 0 -10px #21aca4;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+
+		z-index: 1;
+	}
+
+	.popup-in .popup-close {
+		position: absolute;
+		width: 15px;
+		height: 15px;
+		right: 10px;
+		top: 10px;
+		background-image: url(../images/cross.png);
+		background-size: cover;
+	}
+
+	.rec-slider { 
+		width: 100%;
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+
+	#more-slider { 
+		margin-bottom: 30px;
+	}
+
+	#viewerContainer .mat-list {
+		width: 100%;
+		margin-bottom: 0 !important;
+		margin-right: 0 !important;
+		margin-left: 0 !important;
+	}
+
+	#viewerContainer .ach-list {
+		width: 50% !important;
+		margin: 0 !important;
+		left: 0 !important;
+	}
+
+	#more-slider .vid-gallery .ach-left, #more-slider .vid-gallery .ach-right {
+	    margin: 42px 9%;
+	}
+
+	#toolbarContainer  {
+		min-width: 320px;
+	}
+
+	#more-slider b {
+		padding-left: 20px;
+	}
+
+	#presentationMode,
+	#openFile,
+	#viewBookmark,
+	#secondaryToolbarToggle,
+	#sidebarToggle,
+	#viewFind,
+	.splitToolbarButton,
+	#numPages,
+	#pageNumber,
+	#pageNumberLabel,
+	#scaleSelectContainer {
+		display: none !important;
+	}
+
+	.splitToolbarButton.x {
+		display: block !important;
+	}
+
+	#toolbarViewer .outerCenter,
+	#toolbarViewer .innerCenter {
+		float: left !important;
+		right: 0 !important;
+		left: 0 !important;
+	}
+
+	
+
+
+}
+
+.mfp-wrap,
+.fancybox-overlay,
+.mfp-bg {
+	z-index: 1500;
+	-webkit-transform: translateZ(666px);
+	   -moz-transform: translateZ(666px);
+		 -o-transform: translateZ(666px);
+		-ms-transform: translateZ(666px);
+			transform: translateZ(666px);
+}
+
+.fancybox-wrap {
+	z-index: 2000;
+	-webkit-transform: translateZ(777px);
+	   -moz-transform: translateZ(777px);
+		 -o-transform: translateZ(777px);
+		-ms-transform: translateZ(777px);
+			transform: translateZ(777px);
+}
+
+.mfp-figure:after {
+	box-shadow: none !important;
+	background-color: transparent !important;
+}
+
+.mfp-img {
+	padding-top: 10px !important;
+}
+
+button.mfp-arrow-right:after,
+button.mfp-arrow-right:before {
+	border-left-color: #00acbd !important;
+}
+
+button.mfp-arrow-left:after,
+button.mfp-arrow-left:before {
+	border-right-color: #00acbd !important;
+}
+
+.google-pdf {
+	width: 100%;
+	height: 700px;
+}
+
+.fancybox-inner {
+	height: 705px !important;
+}
+
+
+/* mozilla pdf viewer custom icons*/
+#toolbarViewerRight .player-button, 
+#toolbarViewerRight .soc-video {
+	float: left;
+	width: auto;
+	height: auto;
+	margin-top: 6px;
+}
+
+
+#toolbarViewerRight .player-button div,
+#toolbarViewerRight .soc-video div {
+	width: 22px;
+	height: 22px;
+}
+
+#toolbarViewerRight .soc-video {
+	margin-right: 10px;
+}
+
+
+#more-slider .vid-gallery .ach-list {
+	height: 160px;
+}
+
+@media screen and (max-width: 1024px) {
+
+	#toolbarViewerRight .player-button div,
+	#toolbarViewerRight .soc-video div {
+		width: 26px;
+		height: 26px;
+	}
+
+	#toolbarContainer, .findbar, .secondaryToolbar,
+	#toolbarViewer {
+		height: 37px;
+	}
+
+	.splitToolbarButton.x,
+	#toolbarViewerLeft {
+		padding-top: 4px;
+	}
+
+	.verticalToolbarSeparator.hiddenSmallView.x {
+		margin-top: 10px;
+	}
+
+	.serv-pop > div {
+		width: 650px;
+	}
+
+	.devil_link {
+		display: none;
+	}
+
+}
+
+@media screen and (max-width: 445px) {
+	#more-slider .vid-gallery .ach-left, #more-slider .vid-gallery .ach-right {
+	    margin: 42px 7%;
+	}
+}
+
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+	div.fancybox-title-float-wrap {
+		bottom: inherit;
+		top: -15px;		
+	}
+	.fancybox-title-float-wrap span.child {
+		background: #000;
+	}
+}

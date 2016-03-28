@@ -1,0 +1,143 @@
+/*
+ * jReject (jQuery Browser Rejection Plugin)
+ * Version 1.0.0
+ * URL: http://jreject.turnwheel.com/
+ * Description: jReject is a easy method of rejecting specific browsers on your site
+ * Author: Steven Bower (TurnWheel Designs) http://turnwheel.com/
+ * Copyright: Copyright (c) 2009-2011 Steven Bower under dual MIT/GPL license.
+ */
+
+#jr_overlay {
+	top: 0;
+	left: 0;
+	padding: 0;
+	margin: 0;
+	z-index: 9999;
+	position: absolute;
+}
+
+#jr_wrap {
+	line-height: 1.4;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	z-index: 9999;
+	padding: 0;
+	margin: 0;
+}
+
+#jr_inner {
+	font-family: Arial,Verdana,sans-serif;
+	font-size: 14px;
+	background: #FFF;
+	border: 1px solid #CCC;
+	color: #434343;
+	margin: 0 auto;
+	height: auto;
+	padding: 20px;
+	position: relative;
+}
+
+#jr_header {
+	font-size: 20px;
+	color: #00acbd;
+	display: block;
+	line-height: 1.4;
+	padding: 5px;
+	padding-bottom: 0;
+	margin: 0;
+	font-family: Helvetica,Arial,sans-serif;
+	font-weight: bold;
+	text-align: left;
+	margin: 15px 0;
+}
+
+#jr_inner p {
+	text-align: left;
+	padding: 5px;
+	margin: 0;
+}
+
+#jr_inner ul {
+	list-style-image: none !important;
+	list-style-position: outside;
+	list-style-type: none;
+	margin-top: 30px;
+	padding: 0;
+}
+
+#jr_inner ul li {
+	cursor: pointer;
+	float: left;
+	width: 120px;
+	height: 122px;
+	margin: 0 10px 10px 10px;
+	padding: 0;
+	text-align: center;
+}
+
+#jr_inner li a {
+	color: #333;
+	font-size: 0.8em;
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+}
+
+#jr_inner li a:hover {
+	text-decoration: underline;
+}
+
+#jr_inner .jr_icon {
+	width: 100px;
+	height: 100px;
+	margin: 1px auto;
+	padding: 0;
+	background: transparent no-repeat scroll left top;
+	cursor: pointer;
+}
+
+#jr_close {
+	margin: 0 0 0 50px;
+	clear: both;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+#jr_close a {
+	padding-top: 30px;
+	padding-bottom: 20px;
+	color: #00acbd;
+	display: block;
+	width: auto;
+	text-decoration: underline;
+}
+
+#jr_close a:hover {
+	text-decoration: none;
+}
+
+#jr_close p {
+	display: none;
+}
+
+#jr_chrome .jr_icon {
+	background: url("chrome.png") 50% 50% no-repeat;
+}
+
+#jr_msie .jr_icon {
+	background: url("ie.png") 50% 50% no-repeat;
+}
+
+#jr_firefox .jr_icon {
+	background: url("ff.jpg") 50% 50% no-repeat;
+}
+
+#jr_safari .jr_icon {
+	background: url("safari.png") 50% 50% no-repeat;
+}
+
+#jr_opera .jr_icon {
+	background: url("o.png") 50% 50% no-repeat;
+}
